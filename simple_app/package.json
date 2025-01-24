@@ -1,0 +1,20 @@
+{
+  "name": "simple-app",
+  "module": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "fastify": "^5.2.1",
+    "pino-pretty": "^13.0.0",
+    "postgres": "^3.4.5",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "scripts": {
+    "clean": "bun run clean.ts",
+    "start": "bun run index.ts",
+    "dev": "bun --watch run index.ts",
+    "test": "bun test"
+  }
+}
